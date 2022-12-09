@@ -1,0 +1,13 @@
+.btn.btn-save{
+    background-color: #00B7ED;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    min-width: 200px;
+    padding: 10px 20px;
+}
+.modal-footer {
+
+justify-content: center !important;
+}

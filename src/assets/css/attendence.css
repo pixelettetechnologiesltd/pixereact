@@ -1,0 +1,52 @@
+.attendence {
+    margin-top: 70px;
+}
+
+.form-select {
+    padding: 0.8rem 2.25rem 0.375rem 0.75rem !important;
+}
+
+.btn-success {
+    background-color: #00B7ED !important;
+    border: 1px solid #00B7ED !important;
+    width: 100% !important;
+    border-radius: 5px !important;
+    padding: 8px !important;
+}
+
+.add-btn {
+    background-color: #00c5fb;
+    border: 1px solid #00c5fb;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    font-weight: 500;
+    min-width: 140px;
+    padding: 10px;
+}
+
+.table {
+    margin-top: 50px;
+}
+
+.table-bordered>:not(caption)>* {
+    border-width: 1px 1px !important;
+}
+
+.vertical-icon {
+    cursor: pointer;
+}
+
+.dropdown-action {
+    position: relative;
+}
+
+.dropdown-menu.dropdown-menu-right {
+    padding: 0px;
+    font-size: 13px;
+}
+
+.dropdown-menu.dropdown-menu-right.true {
+    display: block;
+    min-width: 120px
+}

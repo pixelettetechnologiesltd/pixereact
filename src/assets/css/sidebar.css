@@ -1,0 +1,85 @@
+.sidebar {
+  background-color: #34444c;
+  border-right: 1px solid transparent;
+  bottom: 0;
+  left: 0;
+  margin-top: 0;
+  position: fixed;
+  top: 60px;
+  transition: all 0.2s ease-in-out 0s;
+  width: 230px;
+  z-index: 1001;
+}
+.sidebar-menu ul {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #b7c0cd;
+}
+.menu-title {
+    color: #ebecf1;
+    display: flex;
+    font-size: 14px;
+    opacity: 1;
+    padding: 5px 15px;
+    white-space: nowrap;
+}
+.sidebar-menu li a {
+    color: #b7c0cd;
+    display: block;
+    font-size: 15px;
+    height: auto;
+    padding: 0 20px;
+}
+.menu-item {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+.sidebar-menu > ul > li {
+    position: relative;
+}
+.sidebar-menu {
+  padding: 10px 0;
+}
+.sidebar-menu > ul > li > a {
+    padding: 8px 15px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    transition: all 0.2s ease-in-out 0s;
+    text-decoration: none !important;
+}
+.sidebar-menu ul li a i {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: left;
+    vertical-align: middle;
+    width: 20px;
+    transition: all 0.2s ease-in-out 0s;
+}
+ul > li > a{
+    text-decoration: none !important;
+}
+ul > li {
+    list-style-type: none;
+} 
+.sidebar .sidebar-menu > ul > li > a span {
+    transition: all 0.2s ease-in-out 0s;
+    display: inline-block;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+.menu-arrow > svg{
+    margin-left: 60px;
+}
+.sidebar-menu ul ul a {
+    display: block;
+    font-size: 14px;
+    padding: 9px 10px 0px 50px;
+    position: relative;
+}

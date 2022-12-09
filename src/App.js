@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./assets/css/index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Register, Department, Login, Attendence, Home, Holiday } from "./routes/route";
+import Navbar from "./Layout/Navbar";
+import Protectedroute from "./Components/utils.js/ProtectedRoute";
+import { useSelector } from "react-redux";
 function App() {
+  const user = useSelector((state) => state);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />}></Route>
+          <Route path="/register" element={<Register />}></Route>
+          <Route path="/" element={<Navbar />}>
+            <Route path="/home" element={<Home />}></Route>
+            <Route path="/department" element={<Department />}></Route>
+            <Route path="/attendence" element={<Attendence />}></Route>
+            <Route path="/holiday" element={<Holiday />}></Route>
+          </Route>
+        </Routes>
+      </Router>
     </div>
   );
 }

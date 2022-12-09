@@ -1,0 +1,200 @@
+body {
+  background-color: #f7f7f7 !important;
+}
+.Card_card__bDCie.main {
+  padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0px 5px;
+}
+.flex-the-shit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.welcome-head {
+  font-size: 26px;
+  color: #1f1f1f;
+  font-weight: 500;
+}
+.bradcrum-home {
+  background-color: transparent;
+  color: #6c757d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.no-marg-left {
+  margin-left: 0px !important;
+}
+.icon-bg {
+  border-radius: 100%;
+  background-color: rgba(0, 197, 251, 0.2);
+  color: #00c5fb;
+  display: inline-block;
+  font-size: 33px;
+  height: 60px;
+  line-height: 30px;
+  margin-right: 10px;
+  text-align: center;
+  width: 60px;
+  padding: 13px 13px;
+}
+.number-card {
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  line-height: 1.2;
+}
+.head-card {
+  font-size: 20px;
+  color: #1f1f1f;
+  font-weight: 400;
+  margin-bottom: 0px !important;
+}
+.right-side-text {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merged-boxes {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ededed;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+  background-color: white;
+  border-radius: 5px;
+  width: 25%;
+}
+.make-flex-merg {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px !important;
+}
+.make-fir-mer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-data-mer {
+  font-size: 18px;
+  color: #1f1f1f;
+  margin-bottom: 15px;
+}
+.card-mer-percent {
+  color: #55ce63 !important;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.card-mer-numb {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #1f1f1f;
+  margin-bottom: 15px;
+}
+.card-mer-over {
+  font-size: 18px;
+  color: #1f1f1f;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.progress {
+  height: 6px !important;
+}
+.stat-column {
+  background-color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ededed;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+}
+.stat-card-title {
+  color: #1f1f1f;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.marg-top-30 {
+  margin-top: 30px;
+}
+.prog-block {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ededed;
+  margin-top: 10px;
+}
+.make-text-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.make-text-row-just {
+  display: flex;
+  flex-direction: row;
+  justify-content: start !important;
+}
+.two-of-one {
+  background-color: #f9f9f9;
+  padding: 1rem 1.8rem;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ededed;
+}
+.small-box-title {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.small-box-number {
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.progbar-height {
+  height: 20px !important;
+}
+.dot-text {
+  font-size: 16px;
+  color: #1f1f1f;
+  margin-left: 10px;
+}
+.dot-color-purp {
+  color: #7460ee;
+  font-size: 18px;
+  margin-top: 2px;
+}
+.dot-color-orng {
+  color: #ffc107;
+  font-size: 18px;
+  margin-top: 2px;
+}
+.dot-color-green {
+  color: #28a745;
+  font-size: 18px;
+  margin-top: 2px;
+}
+.dot-color-red {
+  color: #dc3545;
+  font-size: 18px;
+  margin-top: 2px;
+}
+.dot-color-blue {
+  color: #17a2b8;
+  font-size: 18px;
+  margin-top: 2px;
+}   
